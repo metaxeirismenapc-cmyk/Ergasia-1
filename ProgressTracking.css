@@ -1,0 +1,21 @@
+.progress-tracking {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.weight-summary {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.progress-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+

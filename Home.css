@@ -1,0 +1,35 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #000000;
+}
+
+.features-list li:last-child {
+  border-bottom: none;
+}
+
+.features-list li::before {
+  content: "✓ ";
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+
+

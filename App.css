@@ -1,0 +1,225 @@
+.App {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navbar {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem 0;
+  border-bottom: 2px solid #000000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+.nav-links Link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+
+.logout-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 1rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid #000000;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.btn-secondary:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.trainer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.trainer-card {
+  border: 2px solid #000000;
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+
+.trainer-card h3 {
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 0.5rem;
+}
+
+.trainer-card p {
+  margin: 0.5rem 0;
+}
+
+.appointment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.appointment-item {
+  border: 2px solid #000000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+.appointment-item h4 {
+  margin-bottom: 0.5rem;
+}
+
+.progress-entry {
+  border: 2px solid #000000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+.progress-entry h4 {
+  margin-bottom: 0.5rem;
+}
+
+.message {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+
+.message.success {
+  background-color: #ffffff;
+  border-color: #000000;
+}
+
+.message.error {
+  background-color: #ffffff;
+  border-color: #000000;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  border: 2px dashed #000000;
+  color: #000000;
+}
+

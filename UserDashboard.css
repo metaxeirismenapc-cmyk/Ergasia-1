@@ -1,0 +1,20 @@
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  padding: 1rem;
+  border: 2px solid #000000;
+  min-width: 200px;
+}
+
+
+
